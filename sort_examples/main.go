@@ -20,4 +20,8 @@ func main() {
 	s := []string{"Zeno", "Abba", "Den", "Yasha"}
 	sort.Sort(sort.StringSlice(s))
 	fmt.Println(s)
+
+	n := []int{7, 6, 4, 2, 1, 6, 2}
+	sort.Sort(sort.IntSlice(n))
+	fmt.Println(n)
 }
